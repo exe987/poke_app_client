@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
 import clientAxios from '../../config/clientAxios';
-import Swal from 'sweetalert2';
 
 export const PokemonContext = createContext(null);
 
@@ -9,14 +8,6 @@ export const PokemonProvider = ({ children }) => {
   const [error, setError] = useState(false);
   const [pokemons, setPokemons] = useState([]);
   const [pokemon, setPokemon] = useState([]);
-
-  const showAlert = () => {
-    Swal.fire({
-      icon: 'error',
-      title: 'Try again',
-      text: 'Something went wrong!',
-    });
-  };
 
   //POKEMONS HOME
   const getPokemons = async () => {
@@ -58,7 +49,6 @@ export const PokemonProvider = ({ children }) => {
     } catch (error) {
       console.error();
       setLoading(false);
-      showAlert();
       window.location.href = '/500';
     }
   };

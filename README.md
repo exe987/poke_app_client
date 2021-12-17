@@ -2,17 +2,15 @@ POKEAPP_CLIENT 🚀
 
 El proyecto POKEAPP es una aplicación del lado del cliente construida en Next JS que sirve para ver informacion acerca de los primeros 150 pókemon.
 
-Comenzando rocket
-
 Vas a poder clonar el repositorio desde https://github.com/exe987/poke_app_client.git para ver como funciona.
 
-Pre-requisitos clipboard
+Requisitos 📋
 
 Para que la aplicación funcione deberás tener instalado Node JS en tu sistema.
 
 Desde Node JS he instalado los paquetes que utilicé para el desarrollo del proyecto.
 
-Instalación wrench
+Instalación 🔧
 
 Una vez clonado el repo, a través de la consola nos ubicamos sobre el directorio de pokeapp y ejecutamos:
 
@@ -28,7 +26,7 @@ Para que la app tenga acceso a su servidor procedemos a clonar la app server htt
 
 Leer readme de server antes de empezar a ejecutar la app.
 
-Autorblack_nib
+✒️
 
 Soto, Angel Exequiel
 
