@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+POKEAPP_CLIENT 🚀
 
-## Getting Started
+El proyecto POKEAPP es una aplicación del lado del cliente construida en Next JS que sirve para ver informacion acerca de los primeros 150 pókemon.
 
-First, run the development server:
+Comenzando rocket
 
-```bash
+Vas a poder clonar el repositorio desde https://github.com/exe987/poke_app_client.git para ver como funciona.
+
+Pre-requisitos clipboard
+
+Para que la aplicación funcione deberás tener instalado Node JS en tu sistema.
+
+Desde Node JS he instalado los paquetes que utilicé para el desarrollo del proyecto.
+
+Instalación wrench
+
+Una vez clonado el repo, a través de la consola nos ubicamos sobre el directorio de pokeapp y ejecutamos:
+
+npm install
+
+Esto descargará todos los paquetes para el desarrollo del proyecto. Luego de que termine de descargar todo ejecutamos:
+
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La app se abrirá en el http://localhost:3000 de tu navegador predeterminado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Para que la app tenga acceso a su servidor procedemos a clonar la app server https://github.com/exe987/poke_app_server.git.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Leer readme de server antes de empezar a ejecutar la app.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Autorblack_nib
 
-## Learn More
+Soto, Angel Exequiel
 
-To learn more about Next.js, take a look at the following resources:
+github: https://github.com/exe987
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+linkedin: https://linkedin.com/in/exesoto
